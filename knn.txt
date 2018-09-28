@@ -1,0 +1,15 @@
+
+KNN can be used for classification? the output is a class membership (predicts a class? ?a discrete value). An object is classified by a majority vote 
+of its neighbors, with the object being assigned to the class most common among its k nearest neighbors. It can also be used for regression? 
+output is the value for the object (predicts continuous values). This value is the average (or median) of the values of its k nearest neighbors.
+
+Algorithm:
+
+Step1: Load the data
+Step2: Initialise the value of k
+Step3: For getting the predicted class, iterate from 1 to total number of training data points
+	Calculate the distance between test data and each row of training data. Here we will use Euclidean distance as our distance metric.
+	Sort the calculated distances in ascending order based on distance values
+	Get top k rows from the sorted array
+	Get the most frequent class of these rows
+	Return the predicted class

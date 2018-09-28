@@ -1,0 +1,21 @@
+references:
+
+https://www.morganclaypool.com/doi/abs/10.2200/s00416ed1v01y201204hlt016
+
+https://search.proquest.com/openview/3bb4518ced02bbd25b28594d28b35094/1?pq-origsite=gscholar&cbl=2029261
+
+http://www.cfilt.iitb.ac.in/resources/surveys/SentimentAnalysis
+
+https://upgrad.com/blog/sentiment-analysis-what-is-it-and-why-does-it-matter/
+
+https://www.marketmotive.com/blog/discipline-specific/social-media/sentiment-analysis-article
+
+https://www.linkedin.com/pulse/importance-sentiment-analysis-social-media-christine-day
+
+https://www.thebalancesmb.com/what-is-social-sentiment-and-why-is-it-important-3960082
+
+ http://www.kamalnigam.com/papers/maxent-ijcaiws99.pdf
+
+https://ddd.uab.cat/pub/tfg/2017/tfg_70824/machine-learning-techniques.pdf
+
+

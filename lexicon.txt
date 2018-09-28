@@ -1,0 +1,21 @@
+	Dictionaries for lexicon-based approaches can be created manually, or automatically. Much of the lexicon-based research has focused on using adjectives
+as indicators of the semantic orientation of text. First, a list of adjectives and corresponding semantic orientation values is compiled into a dictionary. Then, for
+any given text, all adjectives are extracted and annotated with their semantic orientation value, using the dictionary scores. The semantic orientation scores
+ are in turn aggregated into a single score for the text.
+	The dictionary is domain specific i.e. the polarities of the words in the dictionary are set according to a specific domain e.g. book reviews, political blogs etc. 
+Same word in different domains can have different meanings, the dictionary used in this approach is made for movie review domain. Hence eliminating the 
+need for stemming each word which saves more time.
+	The Dictionary also contains the strength of the polarity of every word. Some word depicts stronger emotions than others. For example good and 
+great are both positive words.
+	Negation are very important in identifying the sentiments, as their presence can reverse the polarity of the sentence. The dictionary used 
+here also contains various negation words so that they can be identified in the sentence.
+
+Algorithm:
+Input: Sentence.
+Output : 1or 0.
+Step 1: Initialize a posCounter and negCounter to zero.
+Step 2: Split sentence into array of words.
+Step 3: Check the word against positive and negative word list.
+Step 4: If word matches positive word list increment posCounter or if it matches negative word list increment negCounter else skip.
+Step 5: Repeat until all words of the sentence are checked against the list.
+Step 6: Compare posCouter and negCounter whichever is greater, is the sentiment of the sentence that is positive or negative and return 0 or 1 accordingly.

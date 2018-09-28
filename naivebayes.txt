@@ -1,0 +1,10 @@
+The Naive Bayesian classifier is based on Bayes’ theorem with the independence assumptions between predictors. 
+A Naive Bayesian model is easy to build, with no complicated iterative parameter estimation which makes it particularly useful for very large datasets. 
+Despite its simplicity, the Naive Bayesian classifier often does surprisingly well and is widely used because it often outperforms more sophisticated 
+classification methods. 
+
+Step 1: Convert the data set into a frequency table
+Step 2: Create Likelihood table by finding the probabilities 
+Step 3: Now, use Naive Bayesian equation to calculate the posterior probability for each class. 
+             The class with the highest posterior probability is the outcome of prediction.
+

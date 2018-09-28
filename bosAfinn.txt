@@ -1,0 +1,18 @@
+AFINN is an affective lexicon by Finn Arup Nielsen. AFINN is a list of English words rated for valence with an integer between minus five (negative) and
+ plus five (positive). The words have been manually labeled by Finn Arup Nielsen in 2009-2011. The file is tab-separated. There are two versions:
+AFINN-111: Newest version with 2477 words and phrases.
+AFINN-96: 1468 unique words and phrases on 1480 lines. Note that there are 1480 lines, as some words are listed twice. The word list in not entirely in 
+alphabetic ordering. 
+I have used AFINN-111, from http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip
+
+
+Algorithm:
+
+Input: Sentence.
+Output : 1 or 0.
+Step 1: Initialize a variable to zero.
+Step 2: Split sentence into array of words.
+Step 3: Check the word against afinn word list.
+Step 4: If word matches add its corresponding value to the variable else skip.
+Step 5: Repeat until all words of the sentence are checked against the list.
+Step 6: Check the variable , if it is greater than zero return 1 else 0.

@@ -1,0 +1,22 @@
+
+Text data requires special preparation before you can start using it for predictive modeling. The text must be parsed to remove words, called tokenization. 
+Then the words need to be encoded as integers or floating point values for use as input to a 
+machine learning algorithm, called feature extraction (or vectorization).
+This is an acronym than stands for “Term Frequency – Inverse Document” Frequency which are the components of the resulting scores assigned to each word.
+Term Frequency: This summarizes how often a given word appears within a document.
+Inverse Document Frequency: This downscales words that appear a lot across documents.
+TF-IDF are word frequency scores that try to highlight words that are more interesting, e.g. frequent in a document but not across documents.
+
+
+TfIDF of a word = termFrequency * inverseDocumentFrequency
+termFrequency = sentence word frequency / length of sentence
+inverseDocumentFrequency = log(number of sentence in whole corpus / word frequency in whole corpus)
+
+Example :
+
+Consider a document containing 100 words wherein the word 'Cauvery' appears 3 times.
+The term frequency (tf) for 'Cauvery' is then TF = (3 / 100) = 0.03.
+Now, assume we have 10 million documents and the word 'Cauvery' appears in 1000 of these. 
+Then, the inverse document frequency (idf) is calculated as 
+IDF = log(10,000,000 / 1,000) = 4.
+Thus, the Tf-idf weight is the product of these quantities TF-IDF = 0.03 * 4 = 0.12.
